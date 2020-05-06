@@ -4,12 +4,14 @@ import { Text } from '..';
 import { templates } from './templates';
 
 export interface ActionSheetInputProps {
+  title: string;
   placeholder: string;
   options: string[];
   onValueChange(value: string): void;
 }
 
 export const ActionSheetInput = ({
+  title,
   placeholder,
   options,
   onValueChange,
@@ -21,6 +23,7 @@ export const ActionSheetInput = ({
     ActionSheetIOS.showActionSheetWithOptions(
       {
         options: [...options, 'Avbryt'],
+        title: title,
         cancelButtonIndex: options.length,
       },
       (index) => {

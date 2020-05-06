@@ -88,6 +88,7 @@ export const PersonalDetailsScreen = ({
           title="Kön"
           inputComponent={
             <ActionSheetInput
+              title="Vilket kön identifierar du dig med?"
               placeholder="Kvinna"
               options={['Kvinna', 'Man', 'Annat', 'Vill ej uppge']}
               onValueChange={setGender}
@@ -99,6 +100,7 @@ export const PersonalDetailsScreen = ({
           title="Använder mobiltelefon"
           inputComponent={
             <ActionSheetInput
+              title="Hur ofta använder du mobiltelefon?"
               placeholder="Minst en gång i veckan"
               options={[
                 'Varje dag',
@@ -116,6 +118,7 @@ export const PersonalDetailsScreen = ({
           title="Är i närområdet"
           inputComponent={
             <ActionSheetInput
+              title="Hur ofta är du i närområdet?"
               placeholder="Minst en gång i veckan"
               options={[
                 'Varje dag',
@@ -133,6 +136,7 @@ export const PersonalDetailsScreen = ({
           title="Använder röststyrning"
           inputComponent={
             <ActionSheetInput
+              title="Hur ofta använder du röststyrning?"
               placeholder="Minst en gång i veckan"
               options={[
                 'Varje dag',
