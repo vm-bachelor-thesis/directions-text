@@ -9,6 +9,5 @@ interface PersonalDetails {
 }
 
 interface QuestionnaireAnswers {
-  doorColor: string | undefined;
-  landmarks: string | undefined;
+  description: string;
 }

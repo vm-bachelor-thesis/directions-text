@@ -1,20 +1,17 @@
 import React, { useState } from 'react';
 import { Button } from 'react-native';
-import { View, Text, Divider, TextInput } from '..';
-import { FormRow } from '../FormRow/FormRow';
+import { View, Text, TextInput } from '..';
 
 export interface QuestionnaireTextProps {
   callback(questionnaireAnswers: QuestionnaireAnswers): void;
 }
 
 export const QuestionnaireText = ({ callback }: QuestionnaireTextProps) => {
-  const [doorColor, setDoorColor] = useState<string>();
-  const [landmarks, setLandmarks] = useState<string>();
+  const [description, setDescription] = useState<string>('');
 
   const handleSubmitButtonPress = () => {
     const questionnaireAnswers: QuestionnaireAnswers = {
-      doorColor,
-      landmarks,
+      description,
     };
 
     callback(questionnaireAnswers);
@@ -22,21 +19,19 @@ export const QuestionnaireText = ({ callback }: QuestionnaireTextProps) => {
 
   return (
     <View type="container" scrolling={true} safeMargin={true}>
-      <Text type="header">Platsbeskrivning</Text>
+      <Text type="header">Hur hittar man hit?</Text>
+
+      <Text type="onGrayBackground" margin="bottom+horizontal">
+        Beskriv så att en person som är i närområdet hittar fram till huset.
+        Tänk på att beskrivningen ska kunna användas året om och av personer som
+        inte hittar i närområdet.
+      </Text>
 
       <View padding="horizontal" borderTopBottom={true}>
-        <FormRow
-          title="Färg på dörren"
-          inputComponent={
-            <TextInput placeholder="Färg" onChangeText={setDoorColor} />
-          }
-        />
-        <Divider />
-        <FormRow
-          title="Synliga landmärken"
-          inputComponent={
-            <TextInput placeholder="Landmärken" onChangeText={setLandmarks} />
-          }
+        <TextInput
+          placeholder="Beskrivning"
+          onChangeText={setDescription}
+          lines={20}
         />
       </View>
       <Button title="Slutför" onPress={handleSubmitButtonPress} />

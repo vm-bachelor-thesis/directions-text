@@ -1,5 +1,6 @@
 export const colors = {
   text: '#000',
+  textOnGrayBackground: '#7f7f7f',
   backgroundGray: '#f2f1f6',
   backgroundWhite: '#fff',
   placeholder: '#c4c4c6',
