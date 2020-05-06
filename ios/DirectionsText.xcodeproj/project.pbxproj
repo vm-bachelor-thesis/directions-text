@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* DescribeThisPlaceTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DescribeThisPlaceTextTests.m */; };
+		00E356F31AD99517003FC87E /* DirectionsTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DirectionsTextTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		559FD3154AD27768F45C7E14 /* libPods-DescribeThisPlaceText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B257A26A08C64BE533A7656 /* libPods-DescribeThisPlaceText.a */; };
-		CF67F660041E2AD7CEDAD507 /* libPods-DescribeThisPlaceText-DescribeThisPlaceTextTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B23AAD73DABD0FC561ABC923 /* libPods-DescribeThisPlaceText-DescribeThisPlaceTextTests.a */; };
+		2A86EEA5CA074C275AC52AC7 /* libPods-DirectionsText-DirectionsTextTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB96F175F7002ACA399E995 /* libPods-DirectionsText-DirectionsTextTests.a */; };
+		4BBCFB03A4599AAAA83B59F5 /* libPods-DirectionsText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF9B294097620C3C9EC66AC /* libPods-DirectionsText.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,36 +22,36 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = DescribeThisPlaceText;
+			remoteInfo = DirectionsText;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* DescribeThisPlaceTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DescribeThisPlaceTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* DirectionsTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectionsTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* DescribeThisPlaceTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DescribeThisPlaceTextTests.m; sourceTree = "<group>"; };
-		0D568D448E5216DEBEC72D9F /* Pods-DescribeThisPlaceText-DescribeThisPlaceTextTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DescribeThisPlaceText-DescribeThisPlaceTextTests.debug.xcconfig"; path = "Target Support Files/Pods-DescribeThisPlaceText-DescribeThisPlaceTextTests/Pods-DescribeThisPlaceText-DescribeThisPlaceTextTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Describe This Place: Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Describe This Place: Text.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DescribeThisPlaceText/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DescribeThisPlaceText/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* DirectionsTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectionsTextTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* DirectionsText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectionsText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DirectionsText/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DirectionsText/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DescribeThisPlaceText/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DescribeThisPlaceText/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DescribeThisPlaceText/main.m; sourceTree = "<group>"; };
-		1B8EC85EAE122813C0825CC8 /* Pods-DescribeThisPlaceText-DescribeThisPlaceTextTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DescribeThisPlaceText-DescribeThisPlaceTextTests.release.xcconfig"; path = "Target Support Files/Pods-DescribeThisPlaceText-DescribeThisPlaceTextTests/Pods-DescribeThisPlaceText-DescribeThisPlaceTextTests.release.xcconfig"; sourceTree = "<group>"; };
-		246AB143912500FA50CAFFA3 /* libPods-DescribeThisPlaceText-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DescribeThisPlaceText-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D62DE6752D49890A27AC43A /* Pods-DescribeThisPlaceText-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DescribeThisPlaceText-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DescribeThisPlaceText-tvOSTests/Pods-DescribeThisPlaceText-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		5B257A26A08C64BE533A7656 /* libPods-DescribeThisPlaceText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DescribeThisPlaceText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		629E324073217283C79F3627 /* Pods-DescribeThisPlaceText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DescribeThisPlaceText.debug.xcconfig"; path = "Target Support Files/Pods-DescribeThisPlaceText/Pods-DescribeThisPlaceText.debug.xcconfig"; sourceTree = "<group>"; };
-		9A197136DAB863A6E4C1082C /* Pods-DescribeThisPlaceText-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DescribeThisPlaceText-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DescribeThisPlaceText-tvOS/Pods-DescribeThisPlaceText-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		B23AAD73DABD0FC561ABC923 /* libPods-DescribeThisPlaceText-DescribeThisPlaceTextTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DescribeThisPlaceText-DescribeThisPlaceTextTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6A2EC4CFFBBCD9B8A0D6C78 /* Pods-DescribeThisPlaceText-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DescribeThisPlaceText-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DescribeThisPlaceText-tvOS/Pods-DescribeThisPlaceText-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		BF30B9EB809D727B8A3E178E /* Pods-DescribeThisPlaceText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DescribeThisPlaceText.release.xcconfig"; path = "Target Support Files/Pods-DescribeThisPlaceText/Pods-DescribeThisPlaceText.release.xcconfig"; sourceTree = "<group>"; };
-		C2A391EBCD372772F3B832C0 /* Pods-DescribeThisPlaceText-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DescribeThisPlaceText-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DescribeThisPlaceText-tvOSTests/Pods-DescribeThisPlaceText-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5626A8F1E88CD35F4BADF7D /* libPods-DescribeThisPlaceText-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DescribeThisPlaceText-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DirectionsText/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DirectionsText/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DirectionsText/main.m; sourceTree = "<group>"; };
+		2AF9B294097620C3C9EC66AC /* libPods-DirectionsText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DirectionsText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57FA01D07915E1499E13E62A /* libPods-DirectionsText-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DirectionsText-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6149243615297053E9EB7935 /* Pods-DirectionsText-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectionsText-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DirectionsText-tvOSTests/Pods-DirectionsText-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7050594E4C574EA6A8638011 /* Pods-DirectionsText-DirectionsTextTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectionsText-DirectionsTextTests.release.xcconfig"; path = "Target Support Files/Pods-DirectionsText-DirectionsTextTests/Pods-DirectionsText-DirectionsTextTests.release.xcconfig"; sourceTree = "<group>"; };
+		71BE66161F6A1981BD20FAEF /* Pods-DirectionsText-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectionsText-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DirectionsText-tvOS/Pods-DirectionsText-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		766AF11C7CBA3C6A201FC570 /* Pods-DirectionsText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectionsText.debug.xcconfig"; path = "Target Support Files/Pods-DirectionsText/Pods-DirectionsText.debug.xcconfig"; sourceTree = "<group>"; };
+		8BAC253F21C156980F0F1A87 /* Pods-DirectionsText-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectionsText-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DirectionsText-tvOSTests/Pods-DirectionsText-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CB96F175F7002ACA399E995 /* libPods-DirectionsText-DirectionsTextTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DirectionsText-DirectionsTextTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FBA12299A570C2982D737E /* Pods-DirectionsText-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectionsText-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DirectionsText-tvOS/Pods-DirectionsText-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		A47FAA6A67759D678190F192 /* Pods-DirectionsText-DirectionsTextTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectionsText-DirectionsTextTests.debug.xcconfig"; path = "Target Support Files/Pods-DirectionsText-DirectionsTextTests/Pods-DirectionsText-DirectionsTextTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3388480C1D7FECBEB831202 /* Pods-DirectionsText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectionsText.release.xcconfig"; path = "Target Support Files/Pods-DirectionsText/Pods-DirectionsText.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F278A21B4BF0BFCE81F9C671 /* libPods-DirectionsText-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DirectionsText-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF67F660041E2AD7CEDAD507 /* libPods-DescribeThisPlaceText-DescribeThisPlaceTextTests.a in Frameworks */,
+				2A86EEA5CA074C275AC52AC7 /* libPods-DirectionsText-DirectionsTextTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,20 +67,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				559FD3154AD27768F45C7E14 /* libPods-DescribeThisPlaceText.a in Frameworks */,
+				4BBCFB03A4599AAAA83B59F5 /* libPods-DirectionsText.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* DescribeThisPlaceTextTests */ = {
+		00E356EF1AD99517003FC87E /* DirectionsTextTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* DescribeThisPlaceTextTests.m */,
+				00E356F21AD99517003FC87E /* DirectionsTextTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = DescribeThisPlaceTextTests;
+			path = DirectionsTextTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -91,7 +91,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* DescribeThisPlaceText */ = {
+		13B07FAE1A68108700A75B9A /* DirectionsText */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -102,7 +102,22 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = DescribeThisPlaceText;
+			name = DirectionsText;
+			sourceTree = "<group>";
+		};
+		1FF56A68DE8735C02A258F67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				766AF11C7CBA3C6A201FC570 /* Pods-DirectionsText.debug.xcconfig */,
+				C3388480C1D7FECBEB831202 /* Pods-DirectionsText.release.xcconfig */,
+				A47FAA6A67759D678190F192 /* Pods-DirectionsText-DirectionsTextTests.debug.xcconfig */,
+				7050594E4C574EA6A8638011 /* Pods-DirectionsText-DirectionsTextTests.release.xcconfig */,
+				71BE66161F6A1981BD20FAEF /* Pods-DirectionsText-tvOS.debug.xcconfig */,
+				96FBA12299A570C2982D737E /* Pods-DirectionsText-tvOS.release.xcconfig */,
+				6149243615297053E9EB7935 /* Pods-DirectionsText-tvOSTests.debug.xcconfig */,
+				8BAC253F21C156980F0F1A87 /* Pods-DirectionsText-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -110,27 +125,12 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				5B257A26A08C64BE533A7656 /* libPods-DescribeThisPlaceText.a */,
-				B23AAD73DABD0FC561ABC923 /* libPods-DescribeThisPlaceText-DescribeThisPlaceTextTests.a */,
-				D5626A8F1E88CD35F4BADF7D /* libPods-DescribeThisPlaceText-tvOS.a */,
-				246AB143912500FA50CAFFA3 /* libPods-DescribeThisPlaceText-tvOSTests.a */,
+				2AF9B294097620C3C9EC66AC /* libPods-DirectionsText.a */,
+				8CB96F175F7002ACA399E995 /* libPods-DirectionsText-DirectionsTextTests.a */,
+				F278A21B4BF0BFCE81F9C671 /* libPods-DirectionsText-tvOS.a */,
+				57FA01D07915E1499E13E62A /* libPods-DirectionsText-tvOSTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5D5B93F7D502FB17F20A946B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				629E324073217283C79F3627 /* Pods-DescribeThisPlaceText.debug.xcconfig */,
-				BF30B9EB809D727B8A3E178E /* Pods-DescribeThisPlaceText.release.xcconfig */,
-				0D568D448E5216DEBEC72D9F /* Pods-DescribeThisPlaceText-DescribeThisPlaceTextTests.debug.xcconfig */,
-				1B8EC85EAE122813C0825CC8 /* Pods-DescribeThisPlaceText-DescribeThisPlaceTextTests.release.xcconfig */,
-				9A197136DAB863A6E4C1082C /* Pods-DescribeThisPlaceText-tvOS.debug.xcconfig */,
-				B6A2EC4CFFBBCD9B8A0D6C78 /* Pods-DescribeThisPlaceText-tvOS.release.xcconfig */,
-				C2A391EBCD372772F3B832C0 /* Pods-DescribeThisPlaceText-tvOSTests.debug.xcconfig */,
-				3D62DE6752D49890A27AC43A /* Pods-DescribeThisPlaceText-tvOSTests.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -143,12 +143,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* DescribeThisPlaceText */,
+				13B07FAE1A68108700A75B9A /* DirectionsText */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* DescribeThisPlaceTextTests */,
+				00E356EF1AD99517003FC87E /* DirectionsTextTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				5D5B93F7D502FB17F20A946B /* Pods */,
+				1FF56A68DE8735C02A258F67 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -158,8 +158,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Describe This Place: Text.app */,
-				00E356EE1AD99517003FC87E /* DescribeThisPlaceTextTests.xctest */,
+				13B07F961A680F5B00A75B9A /* DirectionsText.app */,
+				00E356EE1AD99517003FC87E /* DirectionsTextTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,11 +167,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* DescribeThisPlaceTextTests */ = {
+		00E356ED1AD99517003FC87E /* DirectionsTextTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DescribeThisPlaceTextTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DirectionsTextTests" */;
 			buildPhases = (
-				588DFED1B707A2315E221C3D /* [CP] Check Pods Manifest.lock */,
+				AC24284857CF0D4696635633 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -181,16 +181,16 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = DescribeThisPlaceTextTests;
-			productName = DescribeThisPlaceTextTests;
-			productReference = 00E356EE1AD99517003FC87E /* DescribeThisPlaceTextTests.xctest */;
+			name = DirectionsTextTests;
+			productName = DirectionsTextTests;
+			productReference = 00E356EE1AD99517003FC87E /* DirectionsTextTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* DescribeThisPlaceText */ = {
+		13B07F861A680F5B00A75B9A /* DirectionsText */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DescribeThisPlaceText" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DirectionsText" */;
 			buildPhases = (
-				DEF477998C2FF6278FF9AED4 /* [CP] Check Pods Manifest.lock */,
+				DB86614904093798495F2628 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -201,9 +201,9 @@
 			);
 			dependencies = (
 			);
-			name = DescribeThisPlaceText;
-			productName = DescribeThisPlaceText;
-			productReference = 13B07F961A680F5B00A75B9A /* Describe This Place: Text.app */;
+			name = DirectionsText;
+			productName = DirectionsText;
+			productReference = 13B07F961A680F5B00A75B9A /* DirectionsText.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +216,6 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = FRYJ6B6CSC;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
@@ -225,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DescribeThisPlaceText" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DirectionsText" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -238,8 +237,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* DescribeThisPlaceText */,
-				00E356ED1AD99517003FC87E /* DescribeThisPlaceTextTests */,
+				13B07F861A680F5B00A75B9A /* DirectionsText */,
+				00E356ED1AD99517003FC87E /* DirectionsTextTests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,7 +277,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		588DFED1B707A2315E221C3D /* [CP] Check Pods Manifest.lock */ = {
+		AC24284857CF0D4696635633 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,14 +292,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DescribeThisPlaceText-DescribeThisPlaceTextTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DirectionsText-DirectionsTextTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DEF477998C2FF6278FF9AED4 /* [CP] Check Pods Manifest.lock */ = {
+		DB86614904093798495F2628 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,7 +314,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DescribeThisPlaceText-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DirectionsText-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -348,7 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* DescribeThisPlaceTextTests.m in Sources */,
+				00E356F31AD99517003FC87E /* DirectionsTextTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +365,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* DescribeThisPlaceText */;
+			target = 13B07F861A680F5B00A75B9A /* DirectionsText */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,7 +377,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = DescribeThisPlaceText;
+			path = DirectionsText;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -386,15 +385,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D568D448E5216DEBEC72D9F /* Pods-DescribeThisPlaceText-DescribeThisPlaceTextTests.debug.xcconfig */;
+			baseConfigurationReference = A47FAA6A67759D678190F192 /* Pods-DirectionsText-DirectionsTextTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = FRYJ6B6CSC;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = DescribeThisPlaceTextTests/Info.plist;
+				INFOPLIST_FILE = DirectionsTextTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -404,18 +402,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DescribeThisPlaceText.app/DescribeThisPlaceText";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectionsText.app/DirectionsText";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B8EC85EAE122813C0825CC8 /* Pods-DescribeThisPlaceText-DescribeThisPlaceTextTests.release.xcconfig */;
+			baseConfigurationReference = 7050594E4C574EA6A8638011 /* Pods-DirectionsText-DirectionsTextTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = FRYJ6B6CSC;
-				INFOPLIST_FILE = DescribeThisPlaceTextTests/Info.plist;
+				INFOPLIST_FILE = DirectionsTextTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -425,13 +422,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DescribeThisPlaceText.app/DescribeThisPlaceText";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectionsText.app/DirectionsText";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 629E324073217283C79F3627 /* Pods-DescribeThisPlaceText.debug.xcconfig */;
+			baseConfigurationReference = 766AF11C7CBA3C6A201FC570 /* Pods-DirectionsText.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -442,15 +439,15 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = DescribeThisPlaceText/Info.plist;
+				INFOPLIST_FILE = DirectionsText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "se.intrykk.describe-this-place-text";
-				PRODUCT_NAME = "Describe This Place: Text";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.intrykk.directions-text";
+				PRODUCT_NAME = DirectionsText;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -459,21 +456,21 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF30B9EB809D727B8A3E178E /* Pods-DescribeThisPlaceText.release.xcconfig */;
+			baseConfigurationReference = C3388480C1D7FECBEB831202 /* Pods-DirectionsText.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FRYJ6B6CSC;
-				INFOPLIST_FILE = DescribeThisPlaceText/Info.plist;
+				INFOPLIST_FILE = DirectionsText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "se.intrykk.describe-this-place-text";
-				PRODUCT_NAME = "Describe This Place: Text";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.intrykk.directions-text";
+				PRODUCT_NAME = DirectionsText;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -595,7 +592,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DescribeThisPlaceTextTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DirectionsTextTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -604,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DescribeThisPlaceText" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DirectionsText" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -613,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DescribeThisPlaceText" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DirectionsText" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
