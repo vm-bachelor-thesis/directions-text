@@ -1,11 +1,15 @@
 type Gender = string;
 type Age = string;
-type SmartphoneProficiency = string;
+type SmartphoneExperience = string;
+type AreaExperience = string;
+type SpeechControlExperience = string;
 
 interface PersonalDetails {
   gender: Gender;
   age: Age;
-  smartphoneProficiency: SmartphoneProficiency;
+  smartphoneExperience: SmartphoneExperience;
+  areaExperience: AreaExperience;
+  speechControlExperience: SpeechControlExperience;
 }
 
 interface QuestionnaireAnswers {

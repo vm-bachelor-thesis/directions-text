@@ -10,7 +10,7 @@ export interface FormRowProps {
 export const FormRow = ({ title, inputComponent }: FormRowProps) => {
   return (
     <View style={templates.containerView}>
-      <View style={templates.titleView}>
+      <View style={templates.titleView} padding="right">
         <Text>{title}</Text>
       </View>
       <View style={templates.inputView}>{inputComponent}</View>

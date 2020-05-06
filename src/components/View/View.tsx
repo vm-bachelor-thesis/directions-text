@@ -11,7 +11,7 @@ import { templates } from './templates';
 export interface ViewProps extends RNViewProps {
   children: React.ReactNode;
   type?: 'default' | 'container';
-  padding?: 'all' | 'horizontal' | 'vertical' | 'none';
+  padding?: 'all' | 'horizontal' | 'vertical' | 'right' | 'none';
   borderTopBottom?: boolean;
   safeMargin?: boolean;
   scrolling?: boolean;
@@ -31,6 +31,7 @@ export const View = ({
     (padding === 'all' || padding === 'vertical') && templates.paddingVertical,
     (padding === 'all' || padding === 'horizontal') &&
       templates.paddingHorizontal,
+    (padding === 'all' || padding === 'right') && templates.paddingRight,
     borderTopBottom && templates.borderTopBottom,
     style,
   ]);

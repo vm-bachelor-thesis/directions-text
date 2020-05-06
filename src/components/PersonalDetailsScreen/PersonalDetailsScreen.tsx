@@ -12,18 +12,30 @@ export const PersonalDetailsScreen = ({
 }: PersonalDetailsScreenProps) => {
   const [age, setAge] = useState<Age>();
   const [gender, setGender] = useState<Gender>();
-  const [smartphoneProficiency, setSmartphoneProficiency] = useState<
-    SmartphoneProficiency
+  const [smartphoneExperience, setSmartphoneExperience] = useState<
+    SmartphoneExperience
+  >();
+  const [areaExperience, setAreaExperience] = useState<AreaExperience>();
+  const [speechControlExperience, setSpeechControlExperience] = useState<
+    SpeechControlExperience
   >();
   const [consent, setConsent] = useState<boolean>(false);
   const [allowSubmit, setAllowSubmit] = useState<boolean>(false);
 
   const handleSubmitButtonPress = () => {
-    if (age && gender && smartphoneProficiency) {
+    if (
+      age &&
+      gender &&
+      smartphoneExperience &&
+      areaExperience &&
+      speechControlExperience
+    ) {
       const personalDetails: PersonalDetails = {
         age,
         gender,
-        smartphoneProficiency,
+        smartphoneExperience,
+        areaExperience,
+        speechControlExperience,
       };
 
       callback(personalDetails);
@@ -32,14 +44,33 @@ export const PersonalDetailsScreen = ({
 
   useEffect(() => {
     const hasAllData =
-      age && gender && smartphoneProficiency && consent ? true : false;
+      age &&
+      gender &&
+      smartphoneExperience &&
+      areaExperience &&
+      speechControlExperience &&
+      consent
+        ? true
+        : false;
 
     setAllowSubmit(hasAllData);
-  }, [age, gender, smartphoneProficiency, consent]);
+  }, [
+    age,
+    gender,
+    smartphoneExperience,
+    areaExperience,
+    speechControlExperience,
+    consent,
+  ]);
 
   return (
     <View type="container" scrolling={true} safeMargin={true}>
       <Text type="header">Personliga uppgifter</Text>
+
+      <Text type="onGrayBackground" margin="bottom+horizontal">
+        Dessa uppgifter samlas in för att säkerställa att vi får en varierad
+        grupp personer som besvarar undersökningen.
+      </Text>
 
       <View padding="horizontal" borderTopBottom={true}>
         <FormRow
@@ -65,12 +96,52 @@ export const PersonalDetailsScreen = ({
         />
         <Divider />
         <FormRow
-          title="Mobilvana"
+          title="Använder mobiltelefon"
           inputComponent={
             <ActionSheetInput
-              placeholder="Medel"
-              options={['Mycket hög', 'Hög', 'Medel', 'Låg', 'Mycket låg']}
-              onValueChange={setSmartphoneProficiency}
+              placeholder="Minst en gång i veckan"
+              options={[
+                'Varje dag',
+                'Flera gånger i veckan',
+                'Minst en gång i veckan',
+                'Minst en gång i månaden',
+                'Mer sällan',
+              ]}
+              onValueChange={setSmartphoneExperience}
+            />
+          }
+        />
+        <Divider />
+        <FormRow
+          title="Är i närområdet"
+          inputComponent={
+            <ActionSheetInput
+              placeholder="Minst en gång i veckan"
+              options={[
+                'Varje dag',
+                'Flera gånger i veckan',
+                'Minst en gång i veckan',
+                'Minst en gång i månaden',
+                'Mer sällan',
+              ]}
+              onValueChange={setAreaExperience}
+            />
+          }
+        />
+        <Divider />
+        <FormRow
+          title="Använder röststyrning"
+          inputComponent={
+            <ActionSheetInput
+              placeholder="Minst en gång i veckan"
+              options={[
+                'Varje dag',
+                'Flera gånger i veckan',
+                'Minst en gång i veckan',
+                'Minst en gång i månaden',
+                'Mer sällan',
+              ]}
+              onValueChange={setSpeechControlExperience}
             />
           }
         />
