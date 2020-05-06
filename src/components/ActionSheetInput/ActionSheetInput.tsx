@@ -7,13 +7,15 @@ export interface ActionSheetInputProps {
   title: string;
   placeholder: string;
   options: string[];
-  onValueChange(value: string): void;
+  values?: string[];
+  onValueChange: (value: string) => void;
 }
 
 export const ActionSheetInput = ({
   title,
   placeholder,
   options,
+  values,
   onValueChange,
   ...rest
 }: ActionSheetInputProps) => {
@@ -28,7 +30,7 @@ export const ActionSheetInput = ({
       },
       (index) => {
         if (index !== options.length) {
-          const newValue = options[index];
+          const newValue = values ? values[index] : options[index];
 
           setValue(newValue);
           onValueChange(newValue);
