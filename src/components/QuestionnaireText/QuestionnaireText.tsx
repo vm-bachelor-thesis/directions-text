@@ -18,7 +18,7 @@ export const QuestionnaireText = ({ callback }: QuestionnaireTextProps) => {
   };
 
   return (
-    <View type="container" scrolling={true} safeMargin={true}>
+    <View type="container">
       <Text type="header">Hur hittar man hit?</Text>
 
       <Text type="onGrayBackground" margin="bottom+horizontal">

@@ -13,8 +13,6 @@ export interface ViewProps extends RNViewProps {
   type?: 'default' | 'container';
   padding?: 'all' | 'horizontal' | 'vertical' | 'right' | 'none';
   borderTopBottom?: boolean;
-  safeMargin?: boolean;
-  scrolling?: boolean;
 }
 
 export const View = ({

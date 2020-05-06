@@ -64,7 +64,7 @@ export const PersonalDetailsScreen = ({
   ]);
 
   return (
-    <View type="container" scrolling={true} safeMargin={true}>
+    <View type="container">
       <Text type="header">Personliga uppgifter</Text>
 
       <Text type="onGrayBackground" margin="bottom+horizontal">
