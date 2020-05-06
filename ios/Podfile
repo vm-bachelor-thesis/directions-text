@@ -93,12 +93,3 @@ target 'DescribeThisPlaceText' do
     flipper_post_install(installer)
   end
 end
-
-target 'DescribeThisPlaceText-tvOS' do
-  # Pods for DescribeThisPlaceText-tvOS
-
-  target 'DescribeThisPlaceText-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-end
