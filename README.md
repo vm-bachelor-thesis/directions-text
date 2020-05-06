@@ -1,4 +1,6 @@
-# Directions experiment app for regular text entry
+# Directions Text experiment app
+
+For regular text entry
 
 ## Get started
 
