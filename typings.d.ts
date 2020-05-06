@@ -3,6 +3,7 @@ type Age = string;
 type SmartphoneExperience = string;
 type AreaExperience = string;
 type SpeechControlExperience = string;
+type SpeechControlType = string | undefined;
 
 interface PersonalDetails {
   gender: Gender;
@@ -10,6 +11,7 @@ interface PersonalDetails {
   smartphoneExperience: SmartphoneExperience;
   areaExperience: AreaExperience;
   speechControlExperience: SpeechControlExperience;
+  speechControlType: SpeechControlType;
 }
 
 interface QuestionnaireAnswers {

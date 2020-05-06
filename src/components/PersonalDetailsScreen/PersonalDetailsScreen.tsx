@@ -19,6 +19,9 @@ export const PersonalDetailsScreen = ({
   const [speechControlExperience, setSpeechControlExperience] = useState<
     SpeechControlExperience
   >();
+  const [speechControlType, setSpeechControlType] = useState<
+    SpeechControlType
+  >();
   const [consent, setConsent] = useState<boolean>(false);
   const [allowSubmit, setAllowSubmit] = useState<boolean>(false);
 
@@ -36,6 +39,7 @@ export const PersonalDetailsScreen = ({
         smartphoneExperience,
         areaExperience,
         speechControlExperience,
+        speechControlType,
       };
 
       callback(personalDetails);
@@ -146,6 +150,16 @@ export const PersonalDetailsScreen = ({
                 'Mer sällan',
               ]}
               onValueChange={setSpeechControlExperience}
+            />
+          }
+        />
+        <Divider />
+        <FormRow
+          title="Om ja, typ av röststyrning"
+          inputComponent={
+            <TextInput
+              placeholder="Siri, Google Home"
+              onChangeText={setSpeechControlType}
             />
           }
         />
