@@ -1,7 +1,9 @@
 {
-  "name": "describe-this-place-text",
+  "name": "directions-text",
   "version": "0.0.1",
   "private": true,
+  "author": "Viktor Mörsell <morsell@kth.se>",
+  "license": "MIT",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
