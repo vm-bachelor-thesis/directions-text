@@ -5,7 +5,7 @@ export * from './FormRow/FormRow';
 export * from './Text/Text';
 export * from './TextInput/TextInput';
 export * from './View/View';
-export * from './QuestionnaireText/QuestionnaireText';
-export * from './SUSQuestionnaire/SUSQuestionnaire';
 
-export * from './PersonalDetailsScreen/PersonalDetailsScreen';
+export * from './CharacteristicsQuestionnaire/CharacteristicsQuestionnaire';
+export * from './TextExperimentQuestionnaire/TextExperimentQuestionnaire';
+export * from './SUSQuestionnaire/SUSQuestionnaire';

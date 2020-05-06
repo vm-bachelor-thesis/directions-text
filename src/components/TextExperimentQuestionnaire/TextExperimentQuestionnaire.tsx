@@ -2,15 +2,17 @@ import React, { useState } from 'react';
 import { Button } from 'react-native';
 import { View, Text, TextInput } from '..';
 
-export interface QuestionnaireTextProps {
-  callback(questionnaireAnswers: QuestionnaireAnswers): void;
+export interface TextExperimentQuestionnaireProps {
+  callback(experimentResponse: TextExperimentResponse): void;
 }
 
-export const QuestionnaireText = ({ callback }: QuestionnaireTextProps) => {
+export const TextExperimentQuestionnaire = ({
+  callback,
+}: TextExperimentQuestionnaireProps) => {
   const [description, setDescription] = useState<string>('');
 
   const handleSubmitButtonPress = () => {
-    const questionnaireAnswers: QuestionnaireAnswers = {
+    const questionnaireAnswers: TextExperimentResponse = {
       description,
     };
 

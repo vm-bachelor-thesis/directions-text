@@ -5,7 +5,7 @@ type AreaExperience = string;
 type SpeechControlExperience = string;
 type SpeechControlType = string | undefined;
 
-interface PersonalDetails {
+interface CharacteristicsResponse {
   gender: Gender;
   age: Age;
   smartphoneExperience: SmartphoneExperience;
@@ -14,7 +14,7 @@ interface PersonalDetails {
   speechControlType: SpeechControlType;
 }
 
-interface QuestionnaireAnswers {
+interface TextExperimentResponse {
   description: string;
 }
 

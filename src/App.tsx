@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import {
-  PersonalDetailsScreen,
-  QuestionnaireText,
+  CharacteristicsQuestionnaire,
+  TextExperimentQuestionnaire,
   SUSQuestionnaire,
   CompletedMessage,
 } from './components';
 
 export const App = () => {
-  const [personalDetails, setPersonalDetails] = useState<PersonalDetails>();
-  const [questionnaireAnswers, setQuestionnaireAnswers] = useState<
-    QuestionnaireAnswers
+  const [characteristicsResponse, setCharacteristicsResponse] = useState<
+    CharacteristicsResponse
+  >();
+  const [experimentResponse, setExperimentResponse] = useState<
+    TextExperimentResponse
   >();
   const [susResponse, setSUSResponse] = useState<SUSResponse>();
 
@@ -23,12 +25,12 @@ export const App = () => {
       return;
     }
 
-    if (personalDetails && questionnaireAnswers && susResponse) {
+    if (characteristicsResponse && experimentResponse && susResponse) {
       const payload = {
         response: {
-          personalDetails,
-          questionnaireAnswers,
-          susResponse,
+          characteristics: characteristicsResponse,
+          experiment: experimentResponse,
+          sus: susResponse,
         },
       };
 
@@ -54,14 +56,16 @@ export const App = () => {
         })
         .catch(console.warn);
     }
-  }, [personalDetails, questionnaireAnswers, susResponse, dataSaved]);
+  }, [characteristicsResponse, experimentResponse, susResponse, dataSaved]);
 
-  if (!personalDetails) {
-    return <PersonalDetailsScreen callback={setPersonalDetails} />;
+  if (!characteristicsResponse) {
+    return (
+      <CharacteristicsQuestionnaire callback={setCharacteristicsResponse} />
+    );
   }
 
-  if (!questionnaireAnswers) {
-    return <QuestionnaireText callback={setQuestionnaireAnswers} />;
+  if (!experimentResponse) {
+    return <TextExperimentQuestionnaire callback={setExperimentResponse} />;
   }
 
   if (!susResponse) {

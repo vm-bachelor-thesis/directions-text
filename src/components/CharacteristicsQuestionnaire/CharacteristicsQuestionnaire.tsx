@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Button, Switch } from 'react-native';
-import { View, Text, Divider, TextInput, ActionSheetInput } from '../';
+import { View, Text, Divider, TextInput, ActionSheetInput } from '..';
 import { FormRow } from '../FormRow/FormRow';
 
-export interface PersonalDetailsScreenProps {
-  callback(personalDetails: PersonalDetails): void;
+export interface CharacteristicsQuestionnaireProps {
+  callback(characteristicsResponse: CharacteristicsResponse): void;
 }
 
-export const PersonalDetailsScreen = ({
+export const CharacteristicsQuestionnaire = ({
   callback,
-}: PersonalDetailsScreenProps) => {
+}: CharacteristicsQuestionnaireProps) => {
   const [age, setAge] = useState<Age>();
   const [gender, setGender] = useState<Gender>();
   const [smartphoneExperience, setSmartphoneExperience] = useState<
@@ -33,7 +33,7 @@ export const PersonalDetailsScreen = ({
       areaExperience &&
       speechControlExperience
     ) {
-      const personalDetails: PersonalDetails = {
+      const personalDetails: CharacteristicsResponse = {
         age,
         gender,
         smartphoneExperience,
