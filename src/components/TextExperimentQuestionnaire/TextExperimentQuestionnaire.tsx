@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button } from 'react-native';
-import { View, Text, TextInput } from '..';
+import { View, Text, TextInput } from 'directions-components';
 
 export interface TextExperimentQuestionnaireProps {
   callback(experimentResponse: TextExperimentResponse): void;

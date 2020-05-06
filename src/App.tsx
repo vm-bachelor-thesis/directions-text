@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import {
   CharacteristicsQuestionnaire,
-  TextExperimentQuestionnaire,
   SUSQuestionnaire,
   CompletedMessage,
-} from './components';
+} from 'directions-components';
+import { TextExperimentQuestionnaire } from './components';
 
 export const App = () => {
   const [characteristicsResponse, setCharacteristicsResponse] = useState<
