@@ -148,6 +148,7 @@ export const PersonalDetailsScreen = ({
         <Divider />
         <FormRow
           title="Jag godkänner att mina uppgifter lagras och bearbetas för användning i studien."
+          wideTitle={true}
           inputComponent={
             <Switch
               value={consent}

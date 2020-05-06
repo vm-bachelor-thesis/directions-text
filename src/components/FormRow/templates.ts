@@ -19,4 +19,10 @@ export const templates = StyleSheet.create({
     flex: 1,
     flexGrow: 7,
   },
+  inputViewNarrow: {
+    flex: 1,
+    flexGrow: 0,
+    flexBasis: 60,
+    alignItems: 'flex-end',
+  },
 });
