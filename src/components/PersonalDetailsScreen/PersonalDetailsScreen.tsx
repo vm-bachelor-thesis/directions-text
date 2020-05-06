@@ -41,7 +41,7 @@ export const PersonalDetailsScreen = ({
     <View type="container" scrolling={true} safeMargin={true}>
       <Text type="header">Personliga uppgifter</Text>
 
-      <View padding={true} borderTopBottom={true}>
+      <View padding="horizontal" borderTopBottom={true}>
         <FormRow
           title="Ålder"
           inputComponent={

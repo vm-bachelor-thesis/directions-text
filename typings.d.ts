@@ -7,3 +7,8 @@ interface PersonalDetails {
   age: Age;
   smartphoneProficiency: SmartphoneProficiency;
 }
+
+interface QuestionnaireAnswers {
+  doorColor: string | undefined;
+  landmarks: string | undefined;
+}
