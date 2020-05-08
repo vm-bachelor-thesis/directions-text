@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from 'react-native';
+import { Button, StyleSheet } from 'react-native';
 import { View, Text, TextInput } from 'directions-components';
 
 export interface TextExperimentQuestionnaireProps {
@@ -32,7 +32,10 @@ export const TextExperimentQuestionnaire = ({
 
   return (
     <View type="container">
-      <Text type="header">Hur hittar man hit?</Text>
+      <View background="gray" style={style.headerFlex}>
+        <Text type="header">Hur hittar man hit?</Text>
+        <Button title="Slutför" onPress={handleSubmitButtonPress} />
+      </View>
 
       <Text type="onGrayBackground" margin="bottom+horizontal">
         Beskriv så att en person som är i närområdet hittar fram till huset.
@@ -47,7 +50,15 @@ export const TextExperimentQuestionnaire = ({
           lines={20}
         />
       </View>
-      <Button title="Slutför" onPress={handleSubmitButtonPress} />
     </View>
   );
 };
+
+const style = StyleSheet.create({
+  headerFlex: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'flex-start',
+  },
+});
