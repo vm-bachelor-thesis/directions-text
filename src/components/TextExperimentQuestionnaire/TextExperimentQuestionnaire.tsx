@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Button } from 'react-native';
 import { View, Text, TextInput } from 'directions-components';
 
@@ -10,14 +10,25 @@ export const TextExperimentQuestionnaire = ({
   callback,
 }: TextExperimentQuestionnaireProps) => {
   const [description, setDescription] = useState<string>('');
+  const [timeStarted, setTimeStarted] = useState<number>();
 
   const handleSubmitButtonPress = () => {
-    const questionnaireAnswers: TextExperimentResponse = {
-      description,
-    };
+    if (timeStarted && description) {
+      const questionnaireAnswers: TextExperimentResponse = {
+        description,
+        timeStarted: timeStarted,
+        timeFinished: Date.now(),
+      };
 
-    callback(questionnaireAnswers);
+      callback(questionnaireAnswers);
+    }
   };
+
+  useEffect(() => {
+    if (typeof timeStarted === 'undefined') {
+      setTimeStarted(Date.now());
+    }
+  }, [timeStarted]);
 
   return (
     <View type="container">

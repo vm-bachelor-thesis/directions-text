@@ -16,6 +16,8 @@ interface CharacteristicsResponse {
 
 interface TextExperimentResponse {
   description: string;
+  timeStarted: number;
+  timeFinished: number;
 }
 
 interface SUSResponse {
