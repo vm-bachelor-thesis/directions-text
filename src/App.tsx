@@ -58,18 +58,18 @@ export const App = () => {
     }
   }, [characteristicsResponse, experimentResponse, susResponse, dataSaved]);
 
-  if (!characteristicsResponse) {
-    return (
-      <CharacteristicsQuestionnaire callback={setCharacteristicsResponse} />
-    );
-  }
-
   if (!experimentResponse) {
     return <TextExperimentQuestionnaire callback={setExperimentResponse} />;
   }
 
   if (!susResponse) {
     return <SUSQuestionnaire callback={setSUSResponse} />;
+  }
+
+  if (!characteristicsResponse) {
+    return (
+      <CharacteristicsQuestionnaire callback={setCharacteristicsResponse} />
+    );
   }
 
   return <CompletedMessage message={rejectedPayload} />;
