@@ -35,7 +35,7 @@ export const App = () => {
       };
 
       const url =
-        'https://directions-service.azurewebsites.net/api/uploadtextresponse?code=Nsr00Qe2TxgkVJTH4y5mFIcFaomvOsm/jtSYCGbeSkVqcp4C48xxpQ==';
+        'https://directions-service.azurewebsites.net/api/uploadTextResponse?code=Nsr00Qe2TxgkVJTH4y5mFIcFaomvOsm/jtSYCGbeSkVqcp4C48xxpQ==';
 
       fetch(url, {
         method: 'POST',
