@@ -47,7 +47,7 @@ export const TextExperimentQuestionnaire = ({
         <TextInput
           placeholder="Beskrivning"
           onChangeText={setDescription}
-          lines={20}
+          lines={15}
         />
       </View>
     </View>
