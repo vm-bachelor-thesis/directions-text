@@ -2150,7 +2150,7 @@ diff-sequences@^24.9.0:
 
 directions-components@vm-bachelor-thesis/directions-components:
   version "0.0.1"
-  resolved "https://codeload.github.com/vm-bachelor-thesis/directions-components/tar.gz/3ffd1b5996ee0718ad47b7280a4d15f1a761df4a"
+  resolved "https://codeload.github.com/vm-bachelor-thesis/directions-components/tar.gz/7ce105e07c35436bb98e5fe95b65b0414e91c797"
 
 doctrine@^2.1.0:
   version "2.1.0"
